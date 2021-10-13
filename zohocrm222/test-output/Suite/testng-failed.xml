@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testscriptss.Createopportunitywithorganization">
+        <methods>
+          <include name="createoppoprtunity"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="LogoutofApp"/>
+          <include name="closeDB"/>
+          <include name="LoginToApp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscriptss.Createopportunitywithorganization -->
+      <class name="testscriptss.CreateOpportunitywithcontacts">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="LogoutofApp"/>
+          <include name="closeDB"/>
+          <include name="CreateOpp1"/>
+          <include name="LoginToApp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscriptss.CreateOpportunitywithcontacts -->
+      <class name="testscriptss.CreateOpportunity">
+        <methods>
+          <include name="test1"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="LogoutofApp"/>
+          <include name="closeDB"/>
+          <include name="LoginToApp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscriptss.CreateOpportunity -->
+      <class name="testscriptss.Createopportunitywithdelete">
+        <methods>
+          <include name="Test6"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="LogoutofApp"/>
+          <include name="closeDB"/>
+          <include name="LoginToApp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscriptss.Createopportunitywithdelete -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
